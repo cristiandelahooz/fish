@@ -1,9 +1,7 @@
 **/_*
 completions/
-conf.d/env.fish
 conf.d/fzf.fish
 conf.d/sdk.fish
-conf.d/tide.fish
 fish_variables
 functions/fish_mode_prompt.fish
 functions/fish_prompt.fish
