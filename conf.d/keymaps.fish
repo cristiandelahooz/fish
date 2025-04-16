@@ -1,1 +1,3 @@
-bind ctrl-L forward-char
+bind \cL forward-char
+bind \cg ide
+bind \ct tmux-sessionizer
