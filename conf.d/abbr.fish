@@ -1,7 +1,6 @@
 #Shell commands shortcuts
 abbr c clear
 abbr cd z
-abbr la 'ls -A'
 
 #move working directory shortcuts
 abbr js 'cd /Users/saratrasv/Developer/javascript'
@@ -45,10 +44,11 @@ abbr .... "cd ../../.."
 abbr ..... "cd ../../../.."
 
 abbr l "eza -lF --git"
+abbr ls "eza --git"
+abbr la "eza --git -A"
 abbr ll "eza -ls size --git"
 abbr lla "eza -lAF --git"
 abbr lsd "eza -lF --git | grep '^d'"
-abbr ls "eza --git"
 
 # Always enable colored `grep` output
 # Note: `GREP_OPTIONS "--color=auto"` is deprecated, hence the abbr usage.
