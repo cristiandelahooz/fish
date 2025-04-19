@@ -7,3 +7,19 @@ set -gx FZF_DEFAULT_OPTS '
   --border="sharp" --border-label="Wornux" --border-label-pos="19" --preview-window="border-thinblock"
   --prompt=">" --marker="✸" --pointer="⛩️" --separator="─"
   --scrollbar="│" --layout="reverse"'
+
+set -gx TERM xterm-256color
+
+# theme
+set -g theme_color_scheme terminal-dark
+set -g fish_prompt_pwd_dir_length 1
+set -g theme_display_user yes
+set -g theme_hide_hostname no
+set -g theme_hostname always
+
+
+set -gx EDITOR nvim
+
+# Go
+set -g GOPATH $HOME/go
+set -gx PATH $GOPATH/bin $PATH
