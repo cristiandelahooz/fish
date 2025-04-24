@@ -10,4 +10,4 @@ functions/fzf_configure_bindings.fish
 functions/sdk.fish
 functions/tide.fish
 functions/tide/
-
+**/.DS_Store
