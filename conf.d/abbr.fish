@@ -8,6 +8,7 @@ abbr dt "cd ~/Desktop"
 abbr d "cd ~/Developer/"
 abbr i "cd ~/Developer/icc-352"
 abbr nconf 'cd ~/.config/nvim/lua'
+abbr vm nvim +Telescope\\ find_files
 abbr p3 python3
 abbr g git
 abbr n nvim
