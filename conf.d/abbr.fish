@@ -29,7 +29,6 @@ alias lsd "eza -lF --git | grep '^d'"
 alias nt 'nvim $(fzf --preview="bat {}")'
 alias gignored 'git ls-files --ignored --exclude-standard --others'
 alias r ranger
-alias cat bat
 alias ld lazydocker
 alias gs 'git status -s'
 alias jscode 'code . --profile "Node.js"'
