@@ -6,9 +6,9 @@ eval (/opt/homebrew/bin/brew shellenv)
 test -s ~/.config/envman/load.fish; and source ~/.config/envman/load.fish
 
 # pnpm
-set -gx PNPM_HOME "/Users/saratrasv/Library/pnpm"
+set -gx PNPM_HOME /Users/saratrasv/Library/pnpm
 if not string match -q -- $PNPM_HOME $PATH
-  set -gx PATH "$PNPM_HOME" $PATH
+    set -gx PATH "$PNPM_HOME" $PATH
 end
 
 source (dirname (status --current-filename))/conf.d/init.fish
