@@ -17,7 +17,7 @@ abbr fgrep 'fgrep --color=auto'
 abbr egrep 'egrep --color=auto'
 abbr sudo 'sudo '
 abbr week 'date +%V'
-abbr reload "exec fish"
+abbr reload "exec fish -l"
 abbr path 'echo $PATH | tr " " "\n"'
 
 # Aliases: Fixed command replacements or with flags
