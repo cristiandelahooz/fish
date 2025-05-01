@@ -45,15 +45,9 @@ alias fnmlocal 'fnm use --version-file-strategy local'
 
 # Functions: Dynamic, multi-step, or complex logic
 function update
-    sudo softwareupdate -i -a
     brew update
     brew upgrade
-    brew cleanup
-    npm install npm -g
-    npm update -g
-    sudo gem update --system
-    sudo gem update
-    sudo gem cleanup
+    brew cleanup --prune=all
 end
 
 function ips
