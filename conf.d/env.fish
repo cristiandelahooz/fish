@@ -1,12 +1,12 @@
 set -gx PATH $HOME/.scripts $PATH
 set -gx FZF_DEFAULT_OPTS '
-  --color=fg:#ecb680,fg+:#d0d0d0,bg:#000000,bg+:#000000
-  --color=hl:#5b8dbf,hl+:#5fd7ff,info:#afaf87,marker:#87ff00
-  --color=prompt:#d7005f,spinner:#af5fff,pointer:#af5fff,header:#87afaf
-  --color=border:#262626,label:#aeaeae,query:#d9d9d9
-  --border="sharp" --border-label="Wornux" --border-label-pos="19" --preview-window="border-thinblock"
-  --prompt=">" --marker="✸" --pointer="⛩️" --separator="─"
-  --scrollbar="│" --layout="reverse"'
+    --color=fg:#a3b1b3,fg+:#b3c1c2,bg:-1,bg+:#262626
+    --color=hl:#268bd2,hl+:#5b9bd5,info:#b58900,marker:#2aa198
+    --color=prompt:#cb4b16,spinner:#6c71c4,pointer:#d33682,header:#5c6768
+    --color=border:#262626,label:#5c6768,query:#b3c1c2
+    --border="double" --border-label="" --preview-window="border-bold" --prompt="::"
+    --marker="" --pointer="" --separator="─" --scrollbar="│"
+    --layout="reverse" --height=70% --margin=0,001%'
 
 set -gx TERM xterm-256color
 
@@ -16,7 +16,6 @@ set -g fish_prompt_pwd_dir_length 1
 set -g theme_display_user yes
 set -g theme_hide_hostname no
 set -g theme_hostname always
-
 
 set -gx EDITOR nvim
 
