@@ -31,6 +31,7 @@ alias nt 'nvim $(fzf --preview="bat {}")'
 alias gignored 'git ls-files --ignored --exclude-standard --others'
 alias r ranger
 alias ld lazydocker
+alias lg lazygit
 alias gs 'git status -s'
 alias jscode 'code . --profile "Node.js"'
 alias texcode 'code . --profile "Latex"'
