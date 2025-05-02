@@ -33,6 +33,7 @@ alias r ranger
 alias ld lazydocker
 alias lg lazygit
 alias gs 'git status -s'
+alias gg 'git g'
 alias jscode 'code . --profile "Node.js"'
 alias texcode 'code . --profile "Latex"'
 alias jvcode 'code . --profile "Java"'
