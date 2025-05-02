@@ -1,6 +1,6 @@
 set -gx PATH $HOME/.scripts $PATH
 set -gx FZF_DEFAULT_OPTS '
-    --color=fg:#a3b1b3,fg+:#b3c1c2,bg:-1,bg+:#262626
+    --color=fg:#a3b1b3,fg+:#b3c1c2,bg:-1,bg+:#002c38
     --color=hl:#268bd2,hl+:#5b9bd5,info:#b58900,marker:#2aa198
     --color=prompt:#cb4b16,spinner:#6c71c4,pointer:#d33682,header:#5c6768
     --color=border:#262626,label:#5c6768,query:#b3c1c2
