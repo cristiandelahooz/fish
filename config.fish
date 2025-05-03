@@ -11,4 +11,7 @@ if not string match -q -- $PNPM_HOME $PATH
     set -gx PATH "$PNPM_HOME" $PATH
 end
 
+#fnm
+fnm env --use-on-cd --shell fish | source
+
 source (dirname (status --current-filename))/conf.d/init.fish
