@@ -10,7 +10,6 @@ abbr i "cd ~/Developer/icc-352"
 abbr nconf 'cd ~/.config/nvim/lua'
 abbr vm nvim +Telescope\\ find_files
 abbr p3 python3
-abbr g git
 abbr gc 'ghq get --update'
 abbr n nvim
 abbr grep 'grep --color=auto'
@@ -33,6 +32,7 @@ alias gignored 'git ls-files --ignored --exclude-standard --others'
 alias r ranger
 alias ld lazydocker
 alias lg lazygit
+alias g git
 alias gs 'git status -s'
 alias gg 'git g'
 alias jscode 'code . --profile "Node.js"'
