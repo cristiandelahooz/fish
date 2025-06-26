@@ -13,5 +13,6 @@ end
 
 #fnm
 fnm env --use-on-cd --shell fish | source
+atuin init fish | source
 
 source (dirname (status --current-filename))/conf.d/init.fish
