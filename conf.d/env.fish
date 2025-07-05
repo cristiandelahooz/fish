@@ -19,6 +19,9 @@ set -g theme_hostname always
 
 set -gx EDITOR nvim
 
+set -gx GEMINI_SANDBOX true
+set -gx XDG_CONFIG_HOME $HOME/.config
+
 # Go
 set -g GOPATH $HOME/go
 set -gx PATH $GOPATH/bin $PATH
