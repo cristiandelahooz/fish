@@ -45,6 +45,7 @@ alias br 'brew remove'
 alias fmt 'biome format --write'
 alias lint 'biome check --write'
 alias fnmlocal 'fnm use --version-file-strategy local'
+alias ut "git status -s | awk '/^\?\?/ {print $2}' | xargs bat" #list untracked files
 
 # Functions: Dynamic, multi-step, or complex logic
 function update
