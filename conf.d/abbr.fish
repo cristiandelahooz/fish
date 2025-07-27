@@ -33,6 +33,7 @@ alias r ranger
 alias ld lazydocker
 alias lg lazygit
 alias g git
+alias cat bat
 alias ds dataspell
 alias gs 'git status -s'
 alias gg 'git g'
