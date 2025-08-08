@@ -1,3 +1,4 @@
+~/.config/fish/fish_plugins
 jorgebucaran/fisher
 ilancosman/tide
 reitzig/sdkman-for-fish@v2.1.0

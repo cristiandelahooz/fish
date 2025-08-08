@@ -30,8 +30,6 @@ function close_and_restart
     sleep 5
     echo "Flushing disk buffers..."
     sync
-    echo "Setting Safe Mode boot argument..."
-    sudo nvram boot-args="-x"
     echo "Restarting system in Safe Mode..."
     sudo shutdown -r now
 end
